@@ -19,7 +19,7 @@ A small REST API that manages a `tasks` resource.
 1) Clone the repo and install dependencies
 
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
+git clone https://github.com/azeezwaris17/tasks-api.git
 cd tasks-api
 npm install
 ```
@@ -59,7 +59,7 @@ Optional dev mode (auto-restarts):
 npm run dev
 ```
 
-Server will run on `http://localhost:<PORT>`.
+Server will run on `http://localhost:5000`.
 
 ## API Documentation
 
@@ -217,17 +217,6 @@ Errors:
 - 400 `{ "message": "Invalid task id" }`
 - 404 `{ "message": "Task not found" }`
 
-## Optional: Postman
 
-A Postman collection is included at:
 
-- `docs/postman_collection.json`
 
-Import it into Postman, set the `baseUrl` variable (default is `http://localhost:5000`), and run the requests.
-
-## Suggested screenshots for submission
-
-- Terminal showing server running and MongoDB connected
-- Postman requests for: create, list, get-by-id, update, delete
-
-Place them under `docs/screenshots/`.
